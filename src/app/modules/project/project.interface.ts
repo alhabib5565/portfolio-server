@@ -6,6 +6,7 @@ export type TTechnology = {
 
 export type TProject = {
     name: string;
+    image: string
     category: string;
     description: string;
     technologies: TTechnology[];
